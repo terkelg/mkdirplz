@@ -6,10 +6,10 @@ const readdir = promisify(fs.readdir);
 const mkdir = promisify(fs.mkdir);
 
 /**
- * Make directories recursively, async
+ * Make directories recursively
  * @param {String} path The full path
  * @param {Object} [options] Optiosn object
- * @param {Boolean} [filepath=false] If true skip the basename.
+ * @param {Boolean} [filepath=false] If true skip the basename
  */
 async function mkdirplz(path, { filepath = false } = {}) {
   if (path === '') return;
