@@ -32,12 +32,12 @@ npm install mkdirplz
 ## Usage
 
 ```js
-const { mkdirplz } = require('mkdirplz');
+const mkdir = require('mkdirplz');
 
-await mkdirplz('path/to/something');
+await mkdir('path/to/something');
 // => path/to/something
 
-await mkdirplz('path/to/myfile.js', { filepath: true });
+await mkdir('path/to/myfile.js', { filepath: true });
 // => path/to/
 ```
 
