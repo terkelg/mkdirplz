@@ -9,7 +9,7 @@ const mkdir = promisify(fs.mkdir);
  * Make directories recursively, async
  * @param {String} path The full path
  * @param {Object} [options] Optiosn object
- * @param {Boolean} [filepath=false] If true skip making the the last segment (basename).
+ * @param {Boolean} [filepath=false] If true skip the basename.
  */
 async function mkdirplz(path, { filepath = false } = {}) {
   if (path === '') return;
