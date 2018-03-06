@@ -16,7 +16,7 @@
   </a>
 </div>
 
-<div align="center">Make directories like recursively <b>-p</b>lease</div>
+<div align="center">Make directories recursively <b>-p</b>lease - you promised!</div>
 
 <br />
 
