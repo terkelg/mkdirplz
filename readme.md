@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/terkelg/mkdirplz/raw/master/mkdirplz.gif" alt="mkdirplz" width="35%" height="auto" />
+  <img src="https://github.com/terkelg/mkdirplz/raw/master/mkdirplz.gif" alt="mkdirplz" width="35%" />
 </div>
 
 <h1 align="center">mkdir -plz</h1>
