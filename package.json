@@ -1,6 +1,7 @@
 {
   "name": "mkdirplz",
   "version": "0.0.2",
+  "repository": "terkelg/mkdirplz",
   "description": "Make directories recursively -plz",
   "homepage": "https://github.com/terkelg/mkdirplz",
   "main": "src/index.js",
@@ -10,12 +11,11 @@
     "email": "terkel@terkel.com",
     "url": "https://terkel.com"
   },
+  "engines": {
+    "node": ">= 8"
+  },
   "scripts": {
     "test": "tape test/*.js | tap-spec"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/terkelg/mkdirplz"
   },
   "files": [
     "src"
@@ -28,11 +28,8 @@
     "filesystem"
   ],
   "devDependencies": {
-    "eliminate": "^1.0.0",
-    "tap-spec": "^4.1.1",
-    "tape": "^4.8.0"
-  },
-  "engines": {
-    "node": ">= 8"
+    "eliminate": "^1.0.1",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.9.2"
   }
 }
