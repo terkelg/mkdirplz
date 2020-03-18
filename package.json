@@ -1,6 +1,6 @@
 {
   "name": "mkdirplz",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "repository": "terkelg/mkdirplz",
   "description": "Make directories recursively -plz",
   "homepage": "https://github.com/terkelg/mkdirplz",
