@@ -28,8 +28,8 @@
     "filesystem"
   ],
   "devDependencies": {
-    "eliminate": "^1.0.3",
+    "eliminate": "^1.1.2",
     "tap-spec": "^5.0.0",
-    "tape": "^4.11.0"
+    "tape": "^4.13.2"
   }
 }
